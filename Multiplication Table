@@ -1,0 +1,15 @@
+import pyfiglet
+print(pyfiglet.figlet_format( 'Multiplication'))
+print(pyfiglet.figlet_format('Table'))
+
+def multi(num):
+    print(f"**>> Multi table {num} <<**")
+    for i in range(1,13):
+        print(num, 'x', i, '=', i*num)
+multi(2)
+multi(3)
+multi(4)
+multi(5)
+multi(6)
+multi(7)
+multi(15)
